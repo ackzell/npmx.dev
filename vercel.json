@@ -91,6 +91,16 @@
         }
       ],
       "destination": "https://github.com/npmx-dev/npmx.dev/blob/main/LICENSE"
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "main.npmx.dev"
+        }
+      ],
+      "destination": "https://build.npmx.dev"
     }
   ]
 }
